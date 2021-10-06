@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetPrime+</title>
+    <!-- css script -->
+    <link rel="stylesheet" href="general.css">
+    <!-- main js script -->
+    <script defer src="https://unpkg.com/vue@next"></script>
+    <!-- app script -->
+    <script defer src="scripts/app.js"></script>
+</head>
+
+<body>
+    <div id="go">
+
+        <!--Header component-->
+        <header-add></header-add>
+
+        <div class="middle">
+            <!--Intro component-->
+            <div class="abonnement">
+                <p class="formules">NOS FORMULES D'ABONNEMENT</p>
+                <p class="payment">
+                    Toutes nos formules d'abonnement sont 100% sans </br>
+                    engagement et résiliables à tout moment. Paiement par </br>
+                    CB, PayPal et en Bitcoin possible.
+                </p>
+            </div>
+
+            <!--Main cards component-->
+            <div class="cards">
+                <main-info title="SOLO" type="1 ECRAN" video="VIDEO HD" price="9,99€/MOIS"></main-info>
+                <main-info title="FAMILY" type="4 ECRANS" video="VIDEO HD" price="12,99€/MOIS"></main-info>
+                <main-info title="FAMILY 4K" type="4 ECRANS" video="VIDEO 4K" price="15,99€/MOIS"></main-info>
+            </div>
+        </div>
+        <!--Footer component-->
+        <foot-add></foot-add>
+
+    </div>
+</body>
+
+</html>

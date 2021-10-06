@@ -1,0 +1,5 @@
+- Une barre supérieure contenant le logo et le slogan de la landing page
+
+- Un composant contenu principal
+
+- Un composant footer

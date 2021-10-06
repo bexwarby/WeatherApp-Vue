@@ -1,0 +1,85 @@
+#go {
+    font-family: sans-serif;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+/* HEADER STYLE */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1798dd;
+    color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    align-items: center;
+}
+
+/* MAIN BODY STYLE */
+.middle {
+    width: 100%;
+    margin-top: 100px;
+}
+.abonnement {
+    margin-top: 50px;
+    width: 400px;
+}
+.formules {
+    color: #1798dd;
+    font-weight: 600;
+}
+.payment {
+    font-size: smaller;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%
+}
+.card {
+    background-color: #1798dd;
+    padding: 30px 30px 50px 30px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    width: 140px;
+    margin-bottom: 10px
+}
+.discover {
+    padding-bottom: 0;
+}
+.type {
+    padding: 10px 0;
+}
+.abonner {
+    background-color: white;
+    color: #1798dd;
+    border-radius: 6%;
+    border: none;
+    outline: none;
+    width: 100px;
+    font-weight: 700;
+}
+
+/* FOOTER STYLE */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1798dd;
+    color: white;
+    text-align: center;
+}
+.leftText {
+    text-align: initial;
+    padding-left: 20px;
+}
