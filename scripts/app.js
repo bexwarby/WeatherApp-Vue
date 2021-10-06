@@ -1,3 +1,4 @@
+/* Header component */
 const Header = {
     template: `
          <div class="header">
@@ -7,6 +8,7 @@ const Header = {
          `
     ,
 }
+/* Intro component */
 const Intro = {
     template: `
         <div class="abonnement">
@@ -19,7 +21,7 @@ const Intro = {
         </div>
     `,
 }
-
+/* Main info component - 3 cards */
 const MainInfo = {
     props: ['title', 'type', 'video', 'price'],
     template: `
@@ -37,7 +39,7 @@ const MainInfo = {
         </div>
     `,
 }
-
+/* Footer component */
 const Footer = {
     template: `
         <div class="footer">
@@ -46,6 +48,7 @@ const Footer = {
         </div>  
     `,
 }
+/* MAIN COMPONENT */
 const Component = {
     components: {
         "header-add": Header,
