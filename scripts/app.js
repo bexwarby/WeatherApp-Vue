@@ -36,7 +36,6 @@ const MainInfo = {
             </div>
         </div>
     `,
-    /* emits: ['abonner']  */
 }
 
 const Footer = {
@@ -46,8 +45,6 @@ const Footer = {
             <p>&copy; Tous droits réservés</p>
         </div>  
     `,
-    /* props: ['title'],
-    emits: ['deletePermanently'] */
 }
 const Component = {
     components: {
