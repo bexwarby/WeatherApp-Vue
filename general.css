@@ -39,6 +39,14 @@
     margin-top: 80px;
     align-items: center;
 }
+h2 {
+    color: #2f3464;
+    box-shadow: 3px 3px 3px #6c1a72;
+    width: 300px;
+    border: 1px dashed black;
+    font-size: xx-large;
+    margin: 0 auto;
+}
 
 /* BUTTON STYLE */
 .buttons {
@@ -79,12 +87,9 @@
 /* CARDS STYLE */
 .cards {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 50px 20px 0 20px;
+    margin-top: 30px;
+    overflow-x: auto;
 }
 .card {
     background-color: #97d1f0;
@@ -97,14 +102,19 @@
     transition: 0.3s;
     padding: 2px 16px;
     border-radius: 6px;
+    margin: 5px;
 }
 /* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.icon {
+    height: 80px
+}
 .dateDisplay {
     font-weight: 700;
     font-size: medium;
+    margin:0
 }
 .weatherData {
     display: flex;
@@ -140,7 +150,7 @@
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: #5c99b8;
+    background-color: #49acdf;
     color: rgb(0 9 58);
     text-align: center;
 }
