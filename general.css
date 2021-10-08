@@ -3,6 +3,8 @@
     width: 100%;
     height: 700px;
     display: flex;
+    background-image: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
 }
 
 /* HEADER STYLE */
@@ -10,63 +12,125 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #1798dd;
-    color: white;
+    background-color: rgb(0, 17, 116);
+    color: #cbcbcb;
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
     align-items: center;
+    height: 60px
+}
+.leftContent {
+    color: white;
+}
+.rightContent {
+    font-size: larger
 }
 
-/* MAIN BODY STYLE */
-.middle {
-    width: 100%;
+/* OVERALL MAIN SECTION */
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;    
+    height: 60%;
+    margin-top: 80px;
+    align-items: center;
+}
+
+/* BUTTON STYLE */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
     margin-top: 100px;
 }
-.abonnement {
-    margin-top: 50px;
-    width: 400px;
+.typedCityInput {
+    box-shadow: 2px 2px 2px #3e3e19;
+    border: none;
+    border-radius: 5%;
 }
-.formules {
-    color: #1798dd;
-    font-weight: 600;
+.labelTyped {
+    margin: 10px;
 }
-.payment {
-    font-size: smaller;
+.findButton {
+    width: 150px;
+    height: 50px;
+    background-color: #f0e3f0;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px #2a2a5a;
+    color: brown;
+    font-weight: 800;
 }
+.findButton:hover {
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px #2a2a5a;
+    color: #f0e3f0;
+    font-weight: 800;
+}
+
+
+/* CARDS STYLE */
 .cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%
+    width: 100%;
+    margin: 50px 20px 0 20px;
 }
 .card {
-    background-color: #1798dd;
-    padding: 30px 30px 50px 30px;
+    background-color: #97d1f0;
     border-radius: 3px;
-    color: white;
+    color: rgb(8, 28, 119);
     text-align: center;
     font-size: smaller;
     width: 140px;
-    margin-bottom: 10px
+    box-shadow: 3px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    border-radius: 6px;
 }
-.discover {
-    padding-bottom: 0;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.type {
-    padding: 10px 0;
-}
-.abonner {
-    background-color: white;
-    color: #1798dd;
-    border-radius: 6%;
-    border: none;
-    outline: none;
-    width: 100px;
+.dateDisplay {
     font-weight: 700;
+    font-size: medium;
+}
+.weatherData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.blueText {
+    color: rgb(14, 14, 161);
+    font-weight: 600;
+    font-size: medium;
+}
+.redText {
+    color: rgb(170, 17, 17);
+    font-weight: 600;
+    font-size: medium;
+}
+.darkBlueText {
+    color: rgb(7, 7, 58);
+    font-weight: 600;
+    font-size: medium;
+}
+.darkBlueLargerText {
+    color: rgb(7, 7, 58);
+    font-weight: 600;
+    font-size: medium;
 }
 
 /* FOOTER STYLE */
@@ -75,11 +139,29 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #1798dd;
-    color: white;
+    height: 50px;
+    background-color: #5c99b8;
+    color: rgb(0 9 58);
     text-align: center;
 }
 .leftText {
-    text-align: initial;
+    text-align: center;
     padding-left: 20px;
+}
+
+
+/* Icons */
+.cold {
+    font-size: 40px;
+    color: "blue"
+  }
+.hot {
+    font-size: 40px;
+    color: "red"
+}
+.wind {
+    font-size: 30px;
+}
+.description {
+    font-size: 35px;
 }
